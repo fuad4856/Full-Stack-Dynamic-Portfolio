@@ -54,7 +54,7 @@
     background-color: transparent;
     color: var(--accent);
   }
-  /* Hero styles */
+ 
 .hero {
   display: flex;
   flex-direction: column-reverse;
@@ -79,7 +79,7 @@
 .hero-description {
   opacity: 0.7;
 }
-/* About section styles */
+
 .about {
   color: var(--text);
   max-width: 1200px;
@@ -88,7 +88,7 @@
   box-sizing: border-box;
 }
 
-/* Container for info and image, flex layout for responsiveness */
+
 .about-info {
   display: flex;
   flex-wrap: wrap;
@@ -97,9 +97,9 @@
   align-items: flex-start;
 }
 
-/* Text description */
+
 .description {
-  flex: 1 1 300px; /* Flexible, minimum 300px */
+  flex: 1 1 300px; 
   opacity: 0.8;
   font-size: 0.9rem;
   margin-bottom: 1.5rem;
@@ -107,7 +107,7 @@
   color: var(--text);
 }
 
-/* Secondary title styles */
+
 .secondery-title {
   display: inline-block;
   margin-bottom: 1.5rem;
@@ -120,14 +120,14 @@
 .secondery-title::after {
   content: "";
   display: block;
-  width: 50px; /* smaller line */
+  width: 50px; 
   height: 3px;
   margin-top: 0.5rem;
   background-color: var(--accent);
   border-radius: 2px;
 }
 
-/* Image container */
+
 .about-image {
   flex: 1 1 300px;
   max-width: 100%;
@@ -144,7 +144,7 @@
   border-radius: 10px;
 }
 
-/* Responsive adjustments */
+
 @media (max-width: 768px) {
   .about-info {
     flex-direction: column;
@@ -154,7 +154,7 @@
     flex: 1 1 100%;
   }
 }
-/* Services styles */
+
 .services-item {
   background: var(--secondery);
   border-radius: 10px;
@@ -168,7 +168,7 @@
   color: var(--accent);
   margin-bottom: 2rem;
 }
-/* Projects styles */
+
 .projects-header {
   padding-bottom: 2rem;
 }
@@ -185,6 +185,7 @@
 
 .projects-tab-btn-active {
   background-color: var(--accent);
+  
 }
 
 .projects-item {
@@ -194,7 +195,7 @@
 .projects-item img {
   border-radius: 10px;
 }
-/* contact styles */
+
 .contact-info-item {
   display: flex;
 }
@@ -230,7 +231,7 @@ textarea {
   text-align: center;
   padding: 2rem 0;
 }
-/* Desktop Design */
+
 @media screen and (min-width: 700px) {
   .container {
     padding: 4rem 6rem;
@@ -240,7 +241,6 @@ textarea {
     font-size: 1rem;
   }
 
-  /* grid */
   .grid {
     display: flex;
     gap: 2rem;
@@ -251,7 +251,7 @@ textarea {
     width: 30%;
   }
 
-  /* nav */
+
   .nav {
     padding-left: 6rem;
     padding-right: 6rem;
@@ -289,7 +289,6 @@ textarea {
     background: var(--accent);
   }
 
-  /* hero */
   .hero {
     flex-direction: row;
     justify-content: space-between;
@@ -303,10 +302,11 @@ textarea {
     font-size: 5rem;
   }
 
-  /* About */
+
   .about {
     display: flex;
     justify-content: space-between;
+    
   }
 
   .about-img {
@@ -317,7 +317,7 @@ textarea {
     width: 55%;
   }
 
-  /* contact */
+ 
   .contact {
     display: flex;
     justify-content: center;
@@ -327,7 +327,5 @@ textarea {
     width: 55%;
   }
 
-  .submit-btn {
-    font-size: 1.5rem;
+    
   }
-}
