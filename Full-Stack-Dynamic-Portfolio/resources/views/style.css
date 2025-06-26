@@ -172,6 +172,9 @@
 .projects-header {
   padding-bottom: 2rem;
 }
+.projects-header :hover {
+  color: rgb(240, 234, 234);
+}
 
 .projects-tab-btn {
   background-color: transparent;
@@ -185,7 +188,6 @@
 
 .projects-tab-btn-active {
   background-color: var(--accent);
-  
 }
 
 .projects-item {
@@ -217,14 +219,6 @@
   flex-direction: column;
 }
 
-input,
-textarea {
-  background: var(--secondery);
-  border: none;
-  border-radius: 10px;
-  margin-top: 1rem;
-  padding: 0.8rem 1rem;
-}
 
 .footer {
   color: var(--text);
@@ -306,7 +300,6 @@ textarea {
   .about {
     display: flex;
     justify-content: space-between;
-    
   }
 
   .about-img {
@@ -322,6 +315,10 @@ textarea {
     display: flex;
     justify-content: center;
   }
+  .contact:hover{
+    color: rgb(129, 101, 138);
+  }
+  
 
   .contact-form {
     width: 55%;
