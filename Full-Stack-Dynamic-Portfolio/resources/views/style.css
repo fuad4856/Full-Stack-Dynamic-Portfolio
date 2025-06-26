@@ -320,7 +320,7 @@ textarea {
   /* contact */
   .contact {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
   }
 
   .contact-form {
