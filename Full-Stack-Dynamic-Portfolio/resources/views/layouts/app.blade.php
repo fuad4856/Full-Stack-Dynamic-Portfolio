@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>@yield('title') - Hasan Al Banna</title>
+    <title>@yield('title') - Md. Fuad Hossain</title>
     <link rel="stylesheet" href="{{ asset('css/style.css') }}">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 
@@ -11,7 +11,7 @@
     <header>
     <div class="logo">
     <a href="{{ route('home') }}">
-        <img src="assets\images\logo.png" alt="Logo" style="height: 100px;">
+        <img src="https://avatars.githubusercontent.com/u/196004051?v=4" alt="Logo" style="height: 100px;">
     </a>
 </div>
         <nav>
@@ -28,7 +28,7 @@
     </main>
 
     <footer class="footer">
-        <p>Copyright @ Banna | Hasan Al Banna</p>
+        <p>Copyright © Fuad | Md. Fuad Hossain</p>
     </footer>
 </body>
 </html>
