@@ -5,8 +5,8 @@
 @section('content')
 <section class="about">
     <h2>About Me</h2>
-    <p>I am an enthusiastic app developer based in New York with rich experience of over 2 years in Android App design.</p>
-    <p>I design professional & beautiful apps.</p>
+    <p>I am a passionate full-stack developer with experience in modern web technologies and frameworks.</p>
+    <p>I specialize in creating dynamic, responsive web applications and love solving complex problems through code.</p>
   </section>
 @endsection
 

@@ -6,7 +6,7 @@
 @section('content')
 <section class="contact">
     <h2>Get in Touch</h2>
-    <p>Based in Bangladesh</p>
+    <p>Based in [Your Location]</p>
     <div class="social-icons">
   <p><a href="https://facebook.com/yourprofile" target="_blank"><i class="fab fa-facebook-f"></i></a>facebook</p>
   <a href="https://instagram.com/yourprofile" target="_blank"><i class="fab fa-instagram"></i></a>
@@ -16,8 +16,9 @@
     <div class="services">
       <h3>Services</h3>
       <ul>
-        <li>App Development</li>
-        <li>Digital Marketing</li>
+        <li>Full Stack Development</li>
+        <li>Web Application Development</li>
+        <li>API Development</li>
       </ul>
     </div>
   </section>
