@@ -21,7 +21,7 @@ A dynamic portfolio website built with Laravel and modern web technologies.
 
 1. Clone the repository
 ```bash
-git clone https://github.com/YOUR_USERNAME/YOUR_REPOSITORY_NAME.git
+git clone https://github.com/fuad4856/Full-Stack-Dynamic-Portfolio.git
 ```
 
 2. Install dependencies
